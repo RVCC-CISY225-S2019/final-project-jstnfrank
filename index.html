@@ -142,6 +142,12 @@
                 </p>
             </div>
         </article>
+	    <h1>CSS Animation 101</h1>
+			<div class="story-body">
+				<p>Animations using CSS are comprised of two primary components. The first component is the CSS styling which defines the initial conditions of an object as well as the animation properties. These properties include the animation's name, duration, timing and further details for browser handling. The second component is keyframe contents. Each animation contains a minimum of two keyframes which describe the initial and final conditions of an object. Keyframes use percentages related to the animation duration property as defined in the initial CSS styling. So the percentage of the keyframe indicates when in the animation the internal CSS styling should take place. The initial and final keyframe percentage values, 0% &amp; 100%, are unique values as they can be interchanged with the keywords "to" and "from" respectively. </p>
+				<p>To provide additional control over how the animation runs you can add event listeners. What I did in the below example was provide two buttons which change the value of the animation-play-state property. When the start button is clicked the value of this property changes to "running," and once the stop button is clicked the value reverts back to "paused." This works in the script by taking the animated div object that was passed to a variable named "element" using the getElementById() method, and setting its animation play state property to the above values using "element.style.animationPlayState ="</p>
+			</div>
+		</article>
         <div class="pic">
   <div class="text">
 	The tiger is the largest cat species, reaching a
@@ -149,6 +155,7 @@
 	to 306 kg. Its most recognizable feature is a pattern
 	of dark vertical stripes on reddish-orange fur
 	with a lighter underside.
+	  
   </div>
     </main>
     <div class="back-to-top">
