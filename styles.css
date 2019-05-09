@@ -144,7 +144,7 @@ footer {
         grid-template-columns: 1fr 48rem 1fr;
     }
     	.story-body:first-letter {
-   font-size: 45px;
+   font-size: 65px;
     line-height: 1;
     font-weight: bold;
     margin-right: 9px;
